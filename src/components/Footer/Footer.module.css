@@ -1,0 +1,27 @@
+.foot-up-bg {
+  background-color: #2c3e50;
+}
+
+.foot-down-bg {
+  background-color: #1a252f;
+}
+
+.foot-up-bg li:after {
+  content: "";
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  border: 1px solid white;
+  transform: translate(-50%, -45%);
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: translate(-50%, -45%);
+  -moz-transform: translate(-50%, -45%);
+  -ms-transform: translate(-50%, -45%);
+  -o-transform: translate(-50%, -45%);
+}

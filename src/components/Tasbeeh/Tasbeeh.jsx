@@ -7,9 +7,32 @@ export default function Tasbeeh() {
   useEffect(() => {
     fetch("/data/tasbeeh.json")
       .then((res) => res.json())
-      .then((data) => setTasbeeh(data))
+      .then((data) =>
+        setTasbeeh(
+          data.map((item) => ({
+            ...item,
+            count: item.count,
+          })),
+        ),
+      )
       .catch((err) => console.log(err));
   }, []);
+
+  const counterDecrement = (id) => {
+    setTasbeeh((prevData) =>
+      prevData.map((item) =>
+        item.id === id
+          ? { ...item, count: item.count > 0 ? item.count - 1 : 0 }
+          : item,
+      ),
+    );
+  };
+
+  const counterReset = (id) => {
+    setTasbeeh((prevData) =>
+      prevData.map((item) => (item.id === id ? { ...item, count: 100 } : item)),
+    );
+  };
 
   return (
     <>
@@ -23,8 +46,14 @@ export default function Tasbeeh() {
                   <div className={`${styles["screen"]}`}>
                     <span>{t.count}</span>
                   </div>
-                  <div className={`${styles["reset-btn"]}`}></div>
-                  <div className={`${styles["counter-btn"]}`}></div>
+                  <div
+                    className={`${styles["reset-btn"]}`}
+                    onClick={() => counterReset(t.id)}
+                  ></div>
+                  <div
+                    className={`${styles["counter-btn"]}`}
+                    onClick={()=>counterDecrement(t.id)}
+                  ></div>
                 </div>
               </div>
             </div>

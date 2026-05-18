@@ -48,7 +48,7 @@ export default function Navbar() {
             <li className="nav-item ">
               <NavLink
                 className={({ isActive }) =>
-                  `nav-link text-capitalize text-white px-3 py-2 rounded fw-bold ${
+                  `nav-link text-capitalize text-white px-3 py-2 rounded fw-bold me-3 ${
                     isActive ? "active" : ""
                   }`
                 }
@@ -62,20 +62,20 @@ export default function Navbar() {
             <li className="nav-item">
               <NavLink
                 className={({ isActive }) =>
-                  `nav-link text-capitalize text-white   px-3 py-2 rounded fw-bold ${
+                  `nav-link text-capitalize text-white   px-3 py-2 rounded fw-bold me-3 ${
                     isActive ? "active" : ""
                   }`
                 }
-                to="portfolio"
+                to="azkar"
               >
-                Portfolio
+                Azkar
               </NavLink>
             </li>
 
             <li className="nav-item">
               <NavLink
                 className={({ isActive }) =>
-                  `nav-link text-capitalize text-white  px-3 py-2 rounded  fw-bold ${
+                  `nav-link text-capitalize text-white  px-3 py-2 rounded  fw-bold me-3 ${
                     isActive ? "active" : ""
                   }`
                 }

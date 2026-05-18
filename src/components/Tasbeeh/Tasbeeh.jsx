@@ -15,7 +15,7 @@ export default function Tasbeeh() {
           })),
         ),
       )
-      .catch((err) => console.log(err));
+      .catch((err) => console.log("Tasbeeh Err: ", err));
   }, []);
 
   const counterDecrement = (id) => {
@@ -52,7 +52,7 @@ export default function Tasbeeh() {
                   ></div>
                   <div
                     className={`${styles["counter-btn"]}`}
-                    onClick={()=>counterDecrement(t.id)}
+                    onClick={() => counterDecrement(t.id)}
                   ></div>
                 </div>
               </div>

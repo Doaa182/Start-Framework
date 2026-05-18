@@ -13,6 +13,7 @@ export default function Layout() {
     "/tasbeeh": "#1ABC9C",
     "/portfolio": "#ffffff",
     "/contact": "#ffffff",
+    "/azkar": "#ffffff",
   };
 
   let bgColor = bgColorOf[location.pathname];

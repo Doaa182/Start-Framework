@@ -8,6 +8,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
 import Notfound from "./components/Notfound/Notfound";
 import Tasbeeh from "./components/Tasbeeh/Tasbeeh";
+import Azkar from "./components/Azkar/Azkar";
 
 export default function App() {
   let routes = createBrowserRouter([
@@ -24,6 +25,7 @@ export default function App() {
         { path: "portfolio", element: <Portfolio /> },
         { path: "contact", element: <Contact /> },
         { path: "tasbeeh", element: <Tasbeeh /> },
+        { path: "azkar", element: <Azkar /> },
         { path: "*", element: <Notfound /> },
       ],
     },

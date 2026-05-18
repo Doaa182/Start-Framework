@@ -10,6 +10,7 @@ export default function Layout() {
   let bgColorOf = {
     "/": "#1ABC9C",
     "/about": "#1ABC9C",
+    "/tasbeeh": "#1ABC9C",
     "/portfolio": "#ffffff",
     "/contact": "#ffffff",
   };

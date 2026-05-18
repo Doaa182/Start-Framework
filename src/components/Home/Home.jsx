@@ -15,12 +15,12 @@ export default function Home() {
       />
       <h1 className="text-capitalize fw-bold mt-4">Start Framework Islamic</h1>
       <Sharedstar bgColor={"#ffffff"} />
-      <p className={`${styles["p"]}`}>
+      <p className={`text-center ${styles["p"]}`}>
         All-in-one app for Azkar, Salah times, and daily Tasbeeh tracking
       </p>
       <Link
-        to="/about"
-        className={`mb-4 text-decoration-none text-white fw-semibold py-2 px-4 ${styles["tasbeeh-btn"]}`}
+        to="/tasbeeh"
+        className={`mb-4 text-decoration-none text-white fw-semibold py-3 px-4 ${styles["tasbeeh-btn"]}`}
       >
         Start Tasbeeh
         <FaArrowRight className={`ms-2 ${styles["arrow-right"]}`} />

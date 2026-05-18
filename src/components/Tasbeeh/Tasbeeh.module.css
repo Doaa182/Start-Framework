@@ -1,0 +1,78 @@
+.tasbeeh-shape {
+  width: 220px;
+  height: 300px;
+  position: relative;
+  background: linear-gradient(180deg, #35516d 0%, #2c3e50 50%, #1f2d3a 100%);
+  border-radius: 45% 45% 40% 40% / 20% 20% 55% 55%;
+  box-shadow:
+    inset -12px -12px 20px rgba(0, 0, 0, 0.25),
+    0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.tasbeeh-txt {
+  color: white;
+  font-size: 28px;
+  top: 7%;
+  font-weight: 900;
+  right: 50%;
+  transform: translateX(50%);
+  -webkit-transform: translateX(50%);
+  -moz-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  -o-transform: translateX(50%);
+  position: absolute;
+}
+
+.screen {
+  width: 170px;
+  height: 70px;
+  background-color: white;
+  color: #2c3e50;
+  border: 4px solid #1abc9c;
+  border-radius: 15px;
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.reset-btn {
+  width: 35px;
+  height: 35px;
+  background: radial-gradient(circle, white, gray);
+  position: absolute;
+  border-radius: 50%;
+  bottom: 30%;
+  left: 70%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.counter-btn {
+  width: 70px;
+  height: 70px;
+  background: radial-gradient(circle, #ffffff, gray);
+  position: absolute;
+  border-radius: 50%;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow:
+    inset -5px -5px 10px rgba(0, 0, 0, 0.2),
+    0 5px 15px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.counter-btn:hover {
+  background: radial-gradient(circle, #ffffff, #1abc9c);
+}
+
+.reset-btn:hover {
+  background: radial-gradient(circle, #ffffff, #ff3535);
+}

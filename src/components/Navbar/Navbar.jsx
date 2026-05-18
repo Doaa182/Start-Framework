@@ -21,14 +21,15 @@ export default function Navbar() {
     >
       <div className="container">
         <Link
-          className="navbar-brand text-uppercase text-white fs-2 fw-bold"
+          className={`text-decoration-none text-capitalize text-white fw-bold ${styles["navbar-brand"]}`}
           to=""
         >
-          start framework
+          Start Framework
+          <span className="fs-6 "> (Islamic Edition)</span>
         </Link>
 
         <button
-          className="navbar-toggler"
+          className={`${styles["toggler"]} navbar-toggler p-0 `}
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -39,26 +40,29 @@ export default function Navbar() {
           <span className="navbar-toggler-icon" />
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div
+          className="collapse navbar-collapse mt-3"
+          id="navbarSupportedContent"
+        >
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
             <li className="nav-item ">
               <NavLink
                 className={({ isActive }) =>
-                  `nav-link text-uppercase text-white px-3 py-2 rounded fw-bold ${
+                  `nav-link text-capitalize text-white px-3 py-2 rounded fw-bold ${
                     isActive ? "active" : ""
                   }`
                 }
                 aria-current="page"
-                to="about"
+                to="tasbeeh"
               >
-                About
+                Tasbeeh
               </NavLink>
             </li>
 
             <li className="nav-item">
               <NavLink
                 className={({ isActive }) =>
-                  `nav-link text-uppercase text-white   px-3 py-2 rounded fw-bold ${
+                  `nav-link text-capitalize text-white   px-3 py-2 rounded fw-bold ${
                     isActive ? "active" : ""
                   }`
                 }
@@ -71,7 +75,7 @@ export default function Navbar() {
             <li className="nav-item">
               <NavLink
                 className={({ isActive }) =>
-                  `nav-link text-uppercase text-white  px-3 py-2 rounded  fw-bold ${
+                  `nav-link text-capitalize text-white  px-3 py-2 rounded  fw-bold ${
                     isActive ? "active" : ""
                   }`
                 }

@@ -42,7 +42,7 @@ An Islamic website for daily Azkar, prayer times, Tasbeeh, and spiritual reminde
 ## 💻 GitHub Repo & Live Demo
 
 🔗 **GitHub Repo:** [Start Framework Islamic](https://github.com/Doaa182/Start-Framework)  
-🌐 **Live Demo:** [View on GitHub Pages](https://start-framework-three-khaki.vercel.app/)
+🌐 **Live Demo:** [View on Vercel](https://start-framework-three-khaki.vercel.app/)
 
 ---
 

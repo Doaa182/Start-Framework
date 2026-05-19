@@ -1,13 +1,57 @@
-# React + Vite
+# 🕌 Start Framework Islamic
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An Islamic website for daily Azkar, prayer times, Tasbeeh, and spiritual reminders to help Muslims stay connected with their faith every day. 
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💡 Key Features:
 
-## Expanding the ESLint configuration
+🟢 Built a seamless SPA experience using createBrowserRouter for smooth client-side navigation 𝘄𝗶𝘁𝗵𝗼𝘂𝘁 𝗽𝗮𝗴𝗲 𝗿𝗲𝗹𝗼𝗮𝗱𝘀.
+🟢 Implemented a 𝘀𝗵𝗮𝗿𝗲𝗱 𝗟𝗮𝘆𝗼𝘂𝘁 component using <Outlet /> to render dynamic pages with a consistent Navbar and Footer structure.
+🟢 Added a 𝗡𝗼𝘁𝗙𝗼𝘂𝗻𝗱 page for invalid routes and built a 𝗿𝗲𝘂𝘀𝗮𝗯𝗹𝗲 SharedStar component for consistent UI across pages.
+🟢 Used 𝘂𝘀𝗲𝗦𝘁𝗮𝘁𝗲 for Tasbeeh/Azkar counters and modal states, and 𝘂𝘀𝗲𝗘𝗳𝗳𝗲𝗰𝘁 to fetch local JSON data and simulate API behavior with reactive UI updates.
+🟢 Implemented 𝘀𝗰𝗿𝗼𝗹𝗹-𝗯𝗮𝘀𝗲𝗱 𝗨𝗜 changes using window.scrollY and 𝗮𝗰𝘁𝗶𝘃𝗲 𝗿𝗼𝘂𝘁𝗲 highlighting with NavLink from React Router.
+🟢 Integrated the 𝗔𝗹𝗮𝗱𝗵𝗮𝗻 𝗣𝗿𝗮𝘆𝗲𝗿 𝗧𝗶𝗺𝗲𝘀 𝗔𝗣𝗜 using async fetch to dynamically display daily prayer times 𝗯𝘆 𝗰𝗶𝘁𝘆, 𝗰𝗼𝘂𝗻𝘁𝗿𝘆, 𝗮𝗻𝗱 𝗱𝗮𝘁𝗲.
+🟢 Built a 𝗳𝘂𝗹𝗹𝘆 𝗿𝗲𝘀𝗽𝗼𝗻𝘀𝗶𝘃𝗲 𝗹𝗮𝘆𝗼𝘂𝘁 for mobile, tablet, and desktop devices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# Start-Framework" 
+---
+
+## 🛠️ Tech Stack
+
+- **React.js** 
+- **Vite**
+- **CSS Modules**  
+- **Bootstrap 5**  
+- **React Router DOM**  
+- **React Icons**
+
+---
+
+## 🔑 Key Concepts
+
+- **Routing (SPA with createBrowserRouter)** 
+- **State Management (useState)**
+- **React Hooks (useEffect)**  
+- **API Integration (async/await)**  
+- **Responsive Design**
+- **Reusable Components**  
+- **Dynamic UI Behavior**
+
+---
+
+## 💻 GitHub Repo & Live Demo
+
+🔗 **GitHub Repo:** [PharoXplore](https://github.com/Doaa182/Start-Framework)  
+🌐 **Live Demo:** [View on GitHub Pages](https://start-framework-three-khaki.vercel.app/)
+
+---
+
+## 👩‍💻 Author
+
+**Doaa Diaa El Din**  
+🔗 [GitHub Profile](https://github.com/Doaa182)
+
+---
+## 📸 Screenshot
+<img src="./public/screenshot.png" alt="Start Framework Islamic Mockup" width="600"> 
+

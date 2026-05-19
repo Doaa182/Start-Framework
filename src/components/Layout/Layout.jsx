@@ -13,13 +13,18 @@ export default function Layout() {
     "/tasbeeh": "#1ABC9C",
     "/portfolio": "#ffffff",
     "/contact": "#ffffff",
-    "/azkar": "#ffffff",
+    "/azkar": "#1ABC9C",
   };
 
   let bgColor = bgColorOf[location.pathname];
 
   return (
-    <div style={{ backgroundColor: bgColor, paddingTop: "130px" }}>
+    <div
+      style={{
+        backgroundColor: bgColor,
+        paddingTop: "130px",
+      }}
+    >
       <Navbar />
       <Outlet />
       <Footer />

@@ -9,6 +9,7 @@ import Contact from "./components/Contact/Contact";
 import Notfound from "./components/Notfound/Notfound";
 import Tasbeeh from "./components/Tasbeeh/Tasbeeh";
 import Azkar from "./components/Azkar/Azkar";
+import PrayerTimes from "./components/PrayerTimes/PrayerTimes";
 
 export default function App() {
   let routes = createBrowserRouter([
@@ -26,6 +27,7 @@ export default function App() {
         { path: "contact", element: <Contact /> },
         { path: "tasbeeh", element: <Tasbeeh /> },
         { path: "azkar", element: <Azkar /> },
+        { path: "prayertimes", element: <PrayerTimes /> },
         { path: "*", element: <Notfound /> },
       ],
     },

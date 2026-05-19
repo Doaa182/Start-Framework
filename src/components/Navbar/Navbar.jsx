@@ -79,9 +79,9 @@ export default function Navbar() {
                     isActive ? "active" : ""
                   }`
                 }
-                to="contact"
+                to="prayertimes"
               >
-                Contact
+                Prayer Times
               </NavLink>
             </li>
           </ul>

@@ -24,4 +24,15 @@
   -moz-transform: translate(-50%, -45%);
   -ms-transform: translate(-50%, -45%);
   -o-transform: translate(-50%, -45%);
+  cursor: pointer;
+  z-index: -1;
+}
+
+.foot-up-bg li:hover:after {
+  background: #1abc9c;
+}
+
+.foot-up-bg li {
+  z-index: 2;
+  cursor: pointer;
 }

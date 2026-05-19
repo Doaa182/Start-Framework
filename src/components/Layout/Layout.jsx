@@ -14,6 +14,7 @@ export default function Layout() {
     "/portfolio": "#ffffff",
     "/contact": "#ffffff",
     "/azkar": "#1ABC9C",
+    "/prayertimes": "#1ABC9C",
   };
 
   let bgColor = bgColorOf[location.pathname];

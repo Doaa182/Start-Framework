@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Sharedstar from "../Sharedstar/Sharedstar";
 import styles from "./Azkar.module.css";
 
 export default function Azkar() {
@@ -40,7 +41,9 @@ export default function Azkar() {
 
   return (
     <>
-      <div className="container ">
+      <h2 className="text-center  fw-bold">أذكار</h2>
+      <Sharedstar bgColor={"#2c3e50"} />
+      <div className="container mt-5">
         <div className="row">
           {azkar.map((group) => (
             <div key={group.id} className="col-12 col-md-6 col-lg-6 mb-5">

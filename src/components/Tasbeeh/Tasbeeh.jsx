@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Sharedstar from "../Sharedstar/Sharedstar";
 import styles from "./Tasbeeh.module.css";
 
 export default function Tasbeeh() {
@@ -36,7 +37,9 @@ export default function Tasbeeh() {
 
   return (
     <>
-      <div className="container">
+      <h2 className="text-center  fw-bold">تسابيح</h2>
+      <Sharedstar bgColor={"#2c3e50"} />
+      <div className="container mt-5">
         <div className="row">
           {tasbeeh.map((t) => (
             <div className="col-12 col-md-6 col-lg-4 mb-5 ">
